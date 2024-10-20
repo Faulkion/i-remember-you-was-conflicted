@@ -1,2 +1,2 @@
-# i-remember-you-was-conflicted
-misusing your influence sometimes i did the same
+[Link do GitHub Pages
+](https://faulkion.github.io/i-remember-you-was-conflicted/)
