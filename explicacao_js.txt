@@ -1,0 +1,24 @@
+
+1. const form = document.getElementById('cadastroForm'); - Seleciona o formulário pelo ID 'cadastroForm' e o armazena na variável 'form'.
+
+2. const tabela = document.getElementById('cadastros'); - Seleciona a tabela de cadastros pelo ID 'cadastros' e a armazena na variável 'tabela'.
+
+3. form.addEventListener('submit', function(event) { - Adiciona um evento de envio ao formulário, executando a função ao submeter o formulário.
+
+4. event.preventDefault(); - Impede o comportamento padrão de recarregar a página ao enviar o formulário.
+
+5. const nome = document.getElementById('nome').value; - Captura o valor digitado no campo de nome e o armazena na variável 'nome'.
+
+6. const email = document.getElementById('email').value; - Captura o valor digitado no campo de e-mail e o armazena na variável 'email'.
+
+7. const novaLinha = tabela.insertRow(); - Cria uma nova linha na tabela onde os dados de cadastro serão exibidos.
+
+8. const celulaNome = novaLinha.insertCell(0); - Cria uma célula na primeira coluna da nova linha para armazenar o nome.
+
+9. const celulaEmail = novaLinha.insertCell(1); - Cria uma célula na segunda coluna da nova linha para armazenar o e-mail.
+
+10. celulaNome.textContent = nome; - Preenche a célula de nome com o valor capturado do campo 'nome'.
+
+11. celulaEmail.textContent = email; - Preenche a célula de e-mail com o valor capturado do campo 'email'.
+
+12. form.reset(); - Limpa os campos do formulário após o envio dos dados, deixando-os prontos para um novo cadastro.
